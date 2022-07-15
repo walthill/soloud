@@ -13,6 +13,11 @@ project "soloud"
 		"include/**.h"
 	}
 
+	defines
+	{
+		"WITH_MINIAUDIO"
+	}
+
 	includedirs
 	{
 		"include"
